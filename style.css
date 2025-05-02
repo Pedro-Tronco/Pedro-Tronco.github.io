@@ -1,0 +1,229 @@
+body {
+    font-family: 'Merriweather', Georgia, 'Times New Roman';
+    background-color: #000a00;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-style:normal;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    min-height: 170px;
+}    
+
+#header {
+    background-color: #002800  ;
+    border: 5px #002800 solid;
+    box-shadow: 5px 5px 5px black;
+    position:fixed;
+    width:75%;
+}
+
+.lang_select { 
+    position: absolute;
+    right: 15%;
+    display: inline-flex;
+    border: 2px solid #006400;
+}
+
+.lang_button {
+    font-size:smaller;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    user-select: none;
+    background-color :#001400;
+}
+
+.lang_button#selected {
+    background-color: #006400;
+    font-weight: bold;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    display:inline-flex;
+    max-width: 100%;
+}
+
+.header_button {
+    font-size:smaller;
+    padding: 10px;
+    user-select: none;
+    background-color :#001400;
+    border: 2px solid #006400;
+    transition: all 0.2s;
+    margin: 2px;
+    text-transform:uppercase;
+}
+
+.header_button:hover {
+    background-color :#006400;
+    font-weight: bold;
+}
+
+content {
+    align-self: center;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    max-width: 75%;
+    background-color: #001400;
+    border-left: 5px #002800 solid;
+    border-right: 5px #002800 solid;
+    box-shadow: 5px 5px 5px #000a00;
+}
+
+section {
+    padding: 20px; 
+    line-height: 165%;   
+}
+
+p {
+    text-align: justify;
+    text-indent: 3%;
+    
+}
+
+img {
+    padding: 20px;
+    display: block;
+    margin: auto; 
+    width: 50%;
+}
+
+address {
+    display: flexbox;
+    text-transform: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+}
+
+.address_button a {
+    display: flex;
+    justify-items:left;
+    justify-self: left;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    user-select: none;
+    background-color :#001400;
+    transition: all 0.2s;
+    margin: 2px;
+    padding: 10px;
+}
+
+
+.address_button_img {
+    padding: 0;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+}
+
+.address_button_p {
+    color: #006400;
+    font-size: large;
+    text-indent: 0;
+    word-spacing: 0%;
+    line-height: normal;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.flex-display .right {
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: top;
+    padding: 2.5%;
+}
+
+.flex-display .line {
+    border: #002800 1px solid;
+    height: auto;
+    margin: 2.8%;
+    align-self:bottom;
+}
+
+.flex-display .left {
+    display: block;
+    width: 45%;
+    margin-left: 0;
+    margin-right: auto;
+    align-self: top;
+    padding: 2.5%;
+}
+
+button {
+    border: inherit;
+    color: inherit;
+    background-color: inherit;
+    margin: inherit;
+    padding: inherit;
+    width: inherit;
+    height: inherit;
+}
+
+#shadow {
+    box-shadow: 2px 2px 2px black;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Cal Sans';
+}
+
+h2 {
+    text-align: center;
+    color: #006400;
+}
+
+h3 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+h4 {
+    color:#006400
+}
+
+ul {
+    font-size: small;
+    justify-self: left;
+    margin-left: -10%;
+}
+
+ol {
+    line-height: 280%;
+}
+
+hr {
+    height: 1px;
+    border: 0px;
+    border-top: 5px solid #002800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#green_text {
+    color: #008600 ;
+}
